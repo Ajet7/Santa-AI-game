@@ -1,0 +1,6 @@
+{
+  "name": "Santa's Bag Run!",
+  "description": "Help Santa dash on a clean grass field! Collect File items (PPT, DOC, etc.). 5 Files = 1 Folder. Santa's bag grows as it fills with Folders. The game ends if Santa's bag is full (7 Folders) or if he collides with a building. Jump physics and speed inspired by the classic Dinosaur game!",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
