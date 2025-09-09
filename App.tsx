@@ -93,7 +93,8 @@ const App: React.FC = () => {
             <GameCanvas
               key={gameId}
               gameState={gameState}
-              onGameOver={() => handleGameOver('collision')}
+              // FIX: Pass the handleGameOver function directly. GameCanvas will now provide the reason.
+              onGameOver={handleGameOver}
               onFileCollected={handleFileCollected}
               totalFilesCollected={totalFilesCollected}
             />
